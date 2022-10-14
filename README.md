@@ -4,6 +4,10 @@
 
 Developer Portfolio and Blog powered by GatsbyJS and TailwindCSS.
 
+# [YouTube Demo Video](https://youtu.be/g_OAnrkNDH8)
+
+<img width="1388" alt="Screen Shot 2022-08-29 at 9 26 36 AM" src="https://user-images.githubusercontent.com/60903378/187248890-7c49a82b-d6e5-4416-a66a-3407dd97695a.png">
+
 ![OG Snapshot](./static/og@2x.png)
 
 ## ⚙️ Setup
