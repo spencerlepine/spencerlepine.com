@@ -1,0 +1,46 @@
+name: 🚀 Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [ main ]
+    paths:
+      - src/**
+      - content/**
+      - static/**
+  workflow_dispatch:
+
+env:
+  NODE_ENV: production
+  NODE_VERSION: 18.x  # ref: https://nodejs.org/en/about/releases/
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest    
+    permissions: write-all
+    environment:
+      name: github-pages
+      url: https://spencerlepine.com
+
+    steps:
+     - uses: actions/checkout@v4
+     - uses: actions/configure-pages@v4
+     
+     - name: 🔧 Set up Node
+       uses: actions/setup-node@v3
+       with:
+        node-version: ${{ env.NODE_VERSION }}
+     
+     # GitHub Action for install npm dependencies with caching without any configuration
+     - name: 📦 Install Dependencies
+       run: yarn install
+     
+     - name: 🏗 Generate Static Site
+       run: yarn run build
+
+     - name: Upload artifact
+       uses: actions/upload-pages-artifact@v3
+       with:
+         path: public
+
+     - name: 🚀 Deploy to GitHub Pages
+       uses: actions/deploy-pages@v4

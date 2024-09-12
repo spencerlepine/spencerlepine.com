@@ -1,16 +1,12 @@
-# [SpencerLepine.com](https://www.spencerlepine.com/) Portfolio Site
+# [SpencerLepine.com](https://www.spencerlepine.com/) [![🚀 Deploy to GitHub Pages](https://github.com/spencerlepine/spencerlepine.com/actions/workflows/deploy.yml/badge.svg)](https://github.com/spencerlepine/spencerlepine.com/actions/workflows/deploy.yml)
 
-[![CI](https://github.com/spencerlepine/spencerlepine.com/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/spencerlepine/spencerlepine.com/actions/workflows/ci.yml) [![Netlify Deploy](https://github.com/spencerlepine/spencerlepine.com/actions/workflows/netlify.yml/badge.svg?branch=main)](https://github.com/spencerlepine/spencerlepine.com/actions/workflows/netlify.yml) [![Link Check](https://github.com/spencerlepine/spencerlepine.com/actions/workflows/link-check.yml/badge.svg?branch=main)](https://github.com/spencerlepine/spencerlepine.com/actions/workflows/link-check.yml) [![Uptime CI](https://github.com/spencerlepine/portfolio-site-uptime/workflows/Uptime%20CI/badge.svg)](https://github.com/spencerlepine/spencerlepine.com-uptime/actions?query=workflow%3A%22Uptime+CI%22) 
+My developer portfolio site. A static landing page built with Gatsby, ReactJS, and TailwindCSS
 
-<!-- [![Lighthouse CI](https://github.com/spencerlepine/spencerlepine.com/actions/workflows/lighthouse.yml/badge.svg?branch=main)](https://github.com/spencerlepine/spencerlepine.com/actions/workflows/lighthouse.yml) -->
+![Portfolio Site Screenshot GIF](./portfolio-site-landing-page.gif)
 
-![OG Snapshot](./portfolio-site-landing-page.gif)
+<img alt="Architecture" src="./portfolio-architecture.png" width="400px" />
 
-![Architecture](./portfolio-architecture.png)
-
-## ❓ What Is This?
-
-My personal developer portfolio and blog site.
+<img alt="Deplyoment" src="./portfolio-deployment.png" width="700px" />
 
 ## 📦 Technologies
 
@@ -34,11 +30,7 @@ Using Figma, I created the designs to follow and basic component layout of the s
 - V1: https://github.com/spencerlepine/portfolio-site-v1
 - V2: https://github.com/spencerlepine/portfolio-site-v2
 
-## ✅ View Site Uptime
-
-Head over to the [**status website →**](https://spencerlepine.github.io/portfolio-site-uptime) powered by [Upptime](https://github.com/spencerlepine/portfolio-site-uptime)
-
-## ⚙️ Development Setup
+## ⚙️ Local Development
 ```sh
 $ git clone https://github.com/spencerlepine/spencerlepine.com.git
 $ cd spencerlepine.com
