@@ -24,9 +24,9 @@ export default function SEOHeader() {
       <meta name="language" content="English" />
       <meta name="author" content="Spencer Lepine" />
 
-      {/* Open Graph / Facebook - TODO */}
+      {/* Open Graph / Facebook */}
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://spencerlepine.com/" />
+      <meta property="og:url" content="https://spencerlepine.com" />
       <meta
         property="og:title"
         content="Spencer Lepine - Software Engineer Portfolio"
@@ -37,12 +37,12 @@ export default function SEOHeader() {
       />
       <meta
         property="og:image"
-        content="https://spencerlepine.com/images/portfolio-preview.jpg"
+        content="https://spencerlepine.com/assets/og.jpeg"
       />
 
-      {/* Twitter - TODO */}
+      {/* Twitter */}
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://spencerlepine.com/" />
+      <meta property="twitter:url" content="https://spencerlepine.com" />
       <meta
         property="twitter:title"
         content="Spencer Lepine - Software Engineer Portfolio"
@@ -53,10 +53,10 @@ export default function SEOHeader() {
       />
       <meta
         property="twitter:image"
-        content="https://spencerlepine.com/images/portfolio-preview.jpg"
+        content="https://spencerlepine.com/assets/og.jpeg"
       />
 
-      {/* Favicon - TODO */}
+      {/* Favicon */}
       <link rel="icon" href="/favicon.ico" />
     </Head>
   );
