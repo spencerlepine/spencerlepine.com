@@ -2,13 +2,8 @@
 const nextConfig = {
   distDir: 'build',
   output: 'export',
+  images: { unoptimized: true },
   reactStrictMode: true,
-  rewrites: async () => [
-    {
-      source: "/blog",
-      destination: "/blog/index.html",
-    },
-  ],
 };
 
 export default nextConfig;
